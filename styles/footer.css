@@ -1,0 +1,11 @@
+.main-footer{
+    border-top: 2px solid #eb10ff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+
+.main-footer span{
+    color: #eb10ff;
+}

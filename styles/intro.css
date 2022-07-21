@@ -1,0 +1,32 @@
+.intro-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-section img{
+    width: 400px;
+}
+
+.intro-section .intro-description h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+}
+.intro-section .intro-description h3{
+    color: rgb(122, 122, 122);
+}
+
+.intro-section button{
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #eb10ff;
+    color: #54045c;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.intro-section button:hover{
+    filter: brightness(0.8);
+}

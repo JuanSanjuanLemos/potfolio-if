@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/jpg">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/intro.css">
+    <link rel="stylesheet" href="./styles/title.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/project-card.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/service-card.css">
+    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/skill-card.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/sucess-message.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="content">
+            <strong>Juan Lemos</strong>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li> 
+                    <li><a href="#projects">Projetos</a></li> 
+                    <li><a href="#services">Serviços</a></li> 
+                    <li><a href="#skills">Skills</a></li> 
+                    <li><a href="#contact">Contato</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="intro-section">
+            <div>
+                <div class="intro-description">
+                    <h2>Olá, eu sou o Juan Lemos</h1>
+                    <h3>Desenvolvedor Web Front-End</h3>
+                </div>
+                <button>Download CV</button>
+            </div>
+            <img src="./img/dev.png" alt="Dev ilustração">
+        </section>
+        <section class="about-section" id="about">
+            <h2 class="title">Sobre mim</h2>
+            <p class="text-about">
+                Tive meu primeiro contato com o desenvolvimento web aos meus 14 anos, porém na época não tive a possibilidade de continuar meus estudos. Alguns anos se passaram e aqui estou eu, me tornei um desenvolver front-end. Atualmente densenvolvo minhas aplicações utilizando ReactJs.
+            </p>
+        </section>
+        <section class="projects-section" id="projects">
+            <h1 class="title">Projetos</h1>
+            <div class="grid-projects">
+                <article class="project-card">
+                    <img src="./img/nft.png" alt="imagem do projeto">
+                    <h3>RocketNFTs</h3>
+                    <p>Tecnologias: HTML e SASS.</p>
+                </article>
+                <article class="project-card">
+                    <img src="./img/jjfinance.png" alt="imagem do projeto">
+                    <h3>JJ Finance</h3>
+                    <p>Tecnologias: Nextjs, Typescript, Styled Components, FaunaDB e Next-auth.</p>
+                </article>
+                <article class="project-card">
+                    <img src="./img/blog.png" alt="imagem do projeto">
+                    <h3>NewDev Blog</h3>
+                    <p>Tecnologias: Nextjs, Prismic, Styled Components, Typescript e Utterances.</p>
+                </article>
+                <article class="project-card">
+                    <img src="./img/worldtrip.png" alt="imagem do projeto">
+                    <h3>WorldTrip</h3>
+                    <p>Tecnologias: Chakra UI, Swiper, NextJS, Typescript e MirageJs.</p>
+                </article>
+                <article class="project-card">
+                    <img src="./img/todopomo.png" alt="imagem do projeto">
+                    <h3>To do Pomo</h3>
+                    <p>Tecnologias: Nextjs, Typescript e Styled Components.</p>
+                </article>
+            </div>
+        </section>
+        <section class="services-section" id="services">
+            <h1 class="title">Serviços</h1>
+            <div class="wrapper-services">
+                <article class="service-card">
+                    <img src="./img/code.png" alt="Tag">
+                    <p>Criação de sites</p>
+                </article>
+                <article class="service-card">
+                    <img src="./img/smartphone.png" alt="Smartphone">
+                    <p>Sites responsivos</p>
+                </article>
+            </div>
+        </section>
+        <section class="skills-section" id="skills">
+            <h1 class="title">Minhas Skills</h1>
+            <div class="wrapper-skills">
+                <div class="skill-card">
+                    <img src="./img/html.png" alt="HTML">
+                </div>
+                <div class="skill-card">
+                    <img src="./img/css.png" alt="CSS">
+                </div>
+                <div class="skill-card">
+                    <img src="./img/js.png" alt="Js">
+                </div>
+                <div class="skill-card">
+                    <img src="./img/nextjs.png" alt="Nextjs">
+                </div>
+                <div class="skill-card">
+                    <img src="./img/react.png" alt="React">
+                </div>
+            </div>
+        </section>
+        <section class="contact-section" id="contact">
+            <h1 class="title">Contato</h1>
+            <form id="form">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" class="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p>Feito com ❤ por <span>Juan Lemos</span></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

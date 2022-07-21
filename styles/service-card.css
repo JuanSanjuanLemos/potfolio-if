@@ -1,0 +1,13 @@
+.service-card{
+    padding: 1rem 1.5rem;
+    background-color: #333;
+    border: 1px solid rgb(85, 85, 85);
+    border-bottom: 4px solid #eb10ff;
+    width: 300px;
+}
+
+.service-card p{
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    color: #cfcfcf;
+}

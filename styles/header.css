@@ -1,0 +1,26 @@
+.main-header{
+    padding: 2rem 0;
+    font-size: 1.2rem;
+}
+
+.main-header strong{
+    font-size: 2rem;
+}
+
+.main-header nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.main-header nav ul li:hover{
+    filter: brightness(0.8);
+}
+
+.main-header .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1440px;
+    margin: auto;
+}
